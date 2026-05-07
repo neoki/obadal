@@ -41,7 +41,7 @@ export async function submitContactForm(
     };
   }
 
-  const contactEmail = process.env.CONTACT_EMAIL || "empleo@vento.es";
+  const contactEmail = process.env.CONTACT_EMAIL || "info@afectadosobadal.com";
 
   try {
     // Email interno al equipo
